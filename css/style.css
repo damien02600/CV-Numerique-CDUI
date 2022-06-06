@@ -1,0 +1,102 @@
+
+
+/* Carousel styling */
+#img-header,
+.img-background {
+  height: 100vh;
+}
+
+.img-background {
+  background-image: url(./img/laptop-g41666977c_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #img-header {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+/* ABOUT-ME */
+
+
+#about-me{
+  background-color: #eff1f3;
+}
+
+hr {
+  width:50%;
+  font-weight: bold;
+}
+.logo-mysql {
+  height: 40px;
+}
+.logo-csharp{
+  height: 40px;
+}
+
+/* COMPETENCE  */
+
+
+.colorLogoHTML{
+  color: #e34c26;
+} 
+
+.colorLogoCSS{
+  color: blue;
+}
+
+.colorLogoBOOTSTRAP{
+  color: purple;
+}
+.colorLogoJAVASCRIPT{
+  color: yellow;
+}
+.colorLogoPHP{
+  color: #7175AA;
+}
+.colorLogoWORDPRESS{
+  color: #1C85B4;
+}
+.colorLogoREACT {
+ color: #00A4D2;
+}
+
+
+#contact{
+  background-color: #eff1f3;
+}
+
+.fa-mobile-alt:before{
+  font-size: 50px;
+}
+.fa-envelope-open:before{
+  font-size: 50px;
+} 
+.fa-file-download:before{
+  font-size: 50px;
+}
+
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
